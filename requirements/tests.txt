@@ -192,7 +192,7 @@ coverage==7.6.1 \
     --hash=sha256:f5796e664fe802da4f57a168c85359a8fbf3eab5e55cd4e4569fbacecc903959 \
     --hash=sha256:fc5a77d0c516700ebad189b587de289a20a78324bc54baee03dd486f0855d234 \
     --hash=sha256:fd21f6ae3f08b41004dfb433fa895d858f3f5979e7762d052b12aef444e29afc
-    # via -r requirements/tests.in
+    # via -r tests.in
 execnet==2.1.1 \
     --hash=sha256:26dee51f1b80cebd6d0ca8e74dd8745419761d3bef34163928cbebbdc4749fdc \
     --hash=sha256:5189b52c6121c24feae288166ab41b32549c7e2348652736540b9e6e7d4e72e3
@@ -200,7 +200,7 @@ execnet==2.1.1 \
 factory-boy==3.3.1 \
     --hash=sha256:7b1113c49736e1e9995bc2a18f4dbf2c52cf0f841103517010b1d825712ce3ca \
     --hash=sha256:8317aa5289cdfc45f9cae570feb07a6177316c82e34d14df3c2e1f22f26abef0
-    # via -r requirements/tests.in
+    # via -r tests.in
 faker==30.3.0 \
     --hash=sha256:8760fbb34564fbb2f394345eef24aec5b8f6506b6cfcefe8195ed66dd1032bdb \
     --hash=sha256:e8a15fd1b0f72992b008f5ea94c70d3baa0cb51b0d5a0e899c17b1d1b23d2771
@@ -208,7 +208,7 @@ faker==30.3.0 \
 freezegun==1.5.1 \
     --hash=sha256:b29dedfcda6d5e8e083ce71b2b542753ad48cfec44037b3fc79702e2980a89e9 \
     --hash=sha256:bf111d7138a8abe55ab48a71755673dbaa4ab87f4cff5634a4442dfec34c15f1
-    # via -r requirements/tests.in
+    # via -r tests.in
 icdiff==2.0.7 \
     --hash=sha256:f05d1b3623223dd1c70f7848da7d699de3d9a2550b902a8234d9026292fb5762 \
     --hash=sha256:f79a318891adbf59a45e3a7694f5e1f18c5407065264637072ac8363b759866f
@@ -246,7 +246,7 @@ pprintpp==0.4.0 \
 pretend==1.0.9 \
     --hash=sha256:c90eb810cde8ebb06dafcb8796f9a95228ce796531bc806e794c2f4649aa1b10 \
     --hash=sha256:e389b12b7073604be67845dbe32bf8297360ad9a609b24846fe15d86e0b7dc01
-    # via -r requirements/tests.in
+    # via -r tests.in
 psutil==6.0.0 \
     --hash=sha256:02b69001f44cc73c1c5279d02b30a817e339ceb258ad75997325e0e6169d8b35 \
     --hash=sha256:1287c2b95f1c0a364d23bc6f2ea2365a8d4d9b726a3be7294296ff7ba97c17f0 \
@@ -274,7 +274,7 @@ pytest==8.3.3 \
     --hash=sha256:70b98107bd648308a7952b06e6ca9a50bc660be218d53c257cc1fc94fda10181 \
     --hash=sha256:a6853c7375b2663155079443d2e45de913a911a11d669df02a50814944db57b2
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pytest-icdiff
     #   pytest-postgresql
     #   pytest-randomly
@@ -284,27 +284,27 @@ pytest==8.3.3 \
 pytest-icdiff==0.9 \
     --hash=sha256:13aede616202e57fcc882568b64589002ef85438046f012ac30a8d959dac8b75 \
     --hash=sha256:efee0da3bd1b24ef2d923751c5c547fbb8df0a46795553fba08ef57c3ca03d82
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-postgresql==6.1.1 \
     --hash=sha256:bd4c0970d25685ac3d34d42263fcbfbf134bf02d22519fce7e1ccf4122d8b99a \
     --hash=sha256:f996637367e6aecebba1349da52eea95340bdb434c90e4b79739e62c656056e2
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-randomly==3.15.0 \
     --hash=sha256:0516f4344b29f4e9cdae8bce31c4aeebf59d0b9ef05927c33354ff3859eeeca6 \
     --hash=sha256:b908529648667ba5e54723088edd6f82252f540cc340d748d1fa985539687047
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-socket==0.7.0 \
     --hash=sha256:71ab048cbbcb085c15a4423b73b619a8b35d6a307f46f78ea46be51b1b7e11b3 \
     --hash=sha256:7e0f4642177d55d317bbd58fc68c6bd9048d6eadb2d46a89307fa9221336ce45
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-sugar==1.0.0 \
     --hash=sha256:6422e83258f5b0c04ce7c632176c7732cab5fdb909cb39cca5c9139f81276c0a \
     --hash=sha256:70ebcd8fc5795dc457ff8b69d266a4e2e8a74ae0c3edc749381c64b5246c8dfd
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-xdist==3.6.1 \
     --hash=sha256:9ed4adfb68a016610848639bb7e02c9352d5d9f03d04809919e2dafc3be4cca7 \
     --hash=sha256:ead156a4db231eec769737f57668ef58a2084a34b2e55c4a8fa20d861107300d
-    # via -r requirements/tests.in
+    # via -r tests.in
 python-dateutil==2.9.0.post0 \
     --hash=sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3 \
     --hash=sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427
@@ -314,7 +314,7 @@ python-dateutil==2.9.0.post0 \
 pytz==2024.2 \
     --hash=sha256:2aa355083c50a0f93fa581709deac0c9ad65cca8a9e9beac660adcbd493c798a \
     --hash=sha256:31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725
-    # via -r requirements/tests.in
+    # via -r tests.in
 pyyaml==6.0.2 \
     --hash=sha256:01179a4a8559ab5de078078f37e5c1a30d76bb88519906844fd7bdea1b7729ff \
     --hash=sha256:0833f8694549e586547b576dcfaba4a6b55b9e96098b36cdc7ebefe667dfed48 \
@@ -370,14 +370,14 @@ pyyaml==6.0.2 \
     --hash=sha256:f753120cb8181e736c57ef7636e83f31b9c0d1722c516f7e86cf15b7aa57ff12 \
     --hash=sha256:ff3824dc5261f50c9b0dfb3be22b4567a6f938ccce4587b38952d85fd9e9afe4
     # via responses
-requests==2.32.3 \
-    --hash=sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760 \
-    --hash=sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6
+requests==2.32.4 \
+    --hash=sha256:27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c \
+    --hash=sha256:27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422
     # via responses
 responses==0.25.3 \
     --hash=sha256:521efcbc82081ab8daa588e08f7e8a64ce79b91c39f6e62199b19159bea7dbcb \
     --hash=sha256:617b9247abd9ae28313d57a75880422d55ec63c29d33d629697590a034358dba
-    # via -r requirements/tests.in
+    # via -r tests.in
 six==1.16.0 \
     --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 \
     --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
@@ -413,7 +413,7 @@ webob==1.8.8 \
 webtest==3.0.1 \
     --hash=sha256:493b5c802f8948a65b5e3a1ad5b2524ee5e1ab60cd713d9a3da3b8da082c06fe \
     --hash=sha256:b3bc75d020d0576ee93a5f149666045e58fe2400ea5f0c214d7430d7d213d0d0
-    # via -r requirements/tests.in
+    # via -r tests.in
 
 # The following packages are considered to be unsafe in a requirements file:
 setuptools==75.1.0 \
