@@ -19,7 +19,7 @@ cairocffi==1.7.1 \
 cairosvg==2.7.1 \
     --hash=sha256:432531d72347291b9a9ebfb6777026b607563fd8719c46ee742db0aef7271ba0 \
     --hash=sha256:8a5222d4e6c3f86f1f7046b63246877a63b49923a1cd202184c3a634ef546b3b
-    # via -r requirements/docs-blog.in
+    # via -r docs-blog.in
 certifi==2024.8.30 \
     --hash=sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8 \
     --hash=sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9
@@ -216,9 +216,9 @@ defusedxml==0.7.1 \
     --hash=sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69 \
     --hash=sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61
     # via cairosvg
-filelock==3.16.1 \
-    --hash=sha256:2082e5703d51fbf98ea75855d9d5527e33d8ff23099bec374a134febee6946b0 \
-    --hash=sha256:c249fbfcd5db47e5e2d6d62198e565475ee65e4831e2561c8e313fa7eb961435
+filelock==3.20.1 \
+    --hash=sha256:15d9e9a67306188a44baa72f569d2bfd803076269365fdea0934385da4dc361a \
+    --hash=sha256:b8360948b351b80f420878d8516519a2204b07aefcdcfd24912a5d33127f188c
     # via cachecontrol
 ghp-import==2.1.0 \
     --hash=sha256:8337dd7b50877f163d4c0289bc1f1c7f127550241988d568c1db512c4324a619 \
@@ -324,7 +324,7 @@ mkdocs==1.6.1 \
     --hash=sha256:7b432f01d928c084353ab39c57282f29f92136665bdd6abf7c1ec8d822ef86f2 \
     --hash=sha256:db91759624d1647f3f34aa0c3f327dd2601beae39a366d6e064c03468d35c20e
     # via
-    #   -r requirements/docs-blog.in
+    #   -r docs-blog.in
     #   mkdocs-material
     #   mkdocs-rss-plugin
 mkdocs-get-deps==0.2.0 \
@@ -334,7 +334,7 @@ mkdocs-get-deps==0.2.0 \
 mkdocs-material==9.5.40 \
     --hash=sha256:8e7a16ada34e79a7b6459ff2602584222f522c738b6a023d1bea853d5049da6f \
     --hash=sha256:b69d70e667ec51fc41f65e006a3184dd00d95b2439d982cb1586e4c018943156
-    # via -r requirements/docs-blog.in
+    # via -r docs-blog.in
 mkdocs-material-extensions==1.3.1 \
     --hash=sha256:10c9511cea88f568257f960358a467d12b970e1f7b2c0e5fb2bb48cab1928443 \
     --hash=sha256:adff8b62700b25cb77b53358dad940f3ef973dd6db797907c49e3c2ef3ab4e31
@@ -342,7 +342,7 @@ mkdocs-material-extensions==1.3.1 \
 mkdocs-rss-plugin==1.15.0 \
     --hash=sha256:7308ac13f0976c0479db5a62cb7ef9b10fdd74b6521e459bb66a13e2cfe69d4b \
     --hash=sha256:92995ed6c77b2ae1f5f2913e62282c27e50c35d618c4291b5b939e50badd7504
-    # via -r requirements/docs-blog.in
+    # via -r docs-blog.in
 msgpack==1.1.0 \
     --hash=sha256:06f5fd2f6bb2a7914922d935d3b8bb4a7fff3a9a91cfce6d06c13bc42bec975b \
     --hash=sha256:071603e2f0771c45ad9bc65719291c568d4edf120b44eb36324dcb02a13bfddf \
@@ -503,7 +503,7 @@ pillow==10.4.0 \
     --hash=sha256:ff25afb18123cea58a591ea0244b92eb1e61a1fd497bf6d6384f09bc3262ec3e \
     --hash=sha256:ff337c552345e95702c5fde3158acb0625111017d0e5f24bf3acdb9cc16b90d1
     # via
-    #   -r requirements/docs-blog.in
+    #   -r docs-blog.in
     #   cairosvg
 platformdirs==4.3.6 \
     --hash=sha256:357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907 \
